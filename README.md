@@ -1,103 +1,40 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>rickroll</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Totally Serious Site</title>
+  <style>
+    body {
+      background-color: #f4f4f4;
+      font-family: 'Arial', sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      font-size: 3em;
+      color: #333;
+    }
+    p {
+      font-size: 1.2em;
+      color: #666;
+    }
+    .surprise {
+      margin-top: 30px;
+    }
+    iframe {
+      width: 560px;
+      height: 315px;
+      border: none;
+      box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    }
+  </style>
 </head>
-<body bgcolor=purple>
-<audio autoplay controls><!--add "muted" next to "autoplay" to load the page with muted autoplay-->
-	<source src="https://user-images.githubusercontent.com/109108536/184557618-7461120b-edc6-47e8-a6da-eb6cf4fe6c69.mp4" type="audio/mpeg">
-</audio>
-      <h2 align=center>You Got Rickrolled!</h2>
-<hr>
-<div align=center>
-     <span>Never Gonna Give You Up</span><br><br>
-     <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia0.giphy.com%2Fmedia%2FZE5DmCqNMr3yDXq1Zu%2Fsource.gif&amp;f=1&amp;nofb=1">
-</div>
-    <div>
-We're no strangers to love<br>
-You know the rules and so do I (do I)<br>
-A full commitment's what I'm thinking of<br>
-You wouldn't get this from any other guy<br><br>
-</div>     
-    <div>
-I just wanna tell you how I'm feeling<br>
-Gotta make you understand<br><br>
-</div>         
-    <div>
-Never gonna give you up<br>
-Never gonna let you down<br>
-Never gonna run around and desert you<br>
-Never gonna make you cry<br>
-Never gonna say goodbye<br>
-Never gonna tell a lie and hurt you<br><br>
-</div>
-	<div>
-We've known each other for so long<br>
-Your heart's been aching, but you're too shy to say it (say it)<br>
-Inside, we both know what's been going on (going on)<br>
-We know the game and we're gonna play it<br><br>
-</div>
-   <div>
-And if you ask me how I'm feeling<br>
-Don't tell me you're too blind to see<br><br>
-</div>
-	<div>
-Never gonna give you up<br>
-Never gonna let you down<br>
-Never gonna run around and desert you<br>
-Never gonna make you cry<br>
-Never gonna say goodbye<br>
-Never gonna tell a lie and hurt you<br><br>
-</div>
-	<div>
-Never gonna give you up<br>
-Never gonna let you down<br>
-Never gonna run around and desert you<br>
-Never gonna make you cry<br>
-Never gonna say goodbye<br>
-Never gonna tell a lie and hurt you<br><br>
-</div>
-    <div>
-(Ooh, give you up)<br>
-(Ooh, give you up)<br>
-(Ooh) Never gonna give, never gonna give (give you up)<br>
-(Ooh) Never gonna give, never gonna give (give you up)<br><br>
-</div>
-    <div>
-We've known each other for so long<br>
-Your heart's been aching, but you're too shy to say it (to say it)<br>
-Inside, we both know what's been going on (going on)<br>
-We know the game and we're gonna play it<br><br>
-</div>
-    <div>
-I just wanna tell you how I'm feeling<br>
-Gotta make you understand<br><br>
-</div>  
-	<div>
-Never gonna give you up<br>
-Never gonna let you down<br>
-Never gonna run around and desert you<br>
-Never gonna make you cry<br>
-Never gonna say goodbye<br>
-Never gonna tell a lie and hurt you<br><br>
-</div>
-	<div>
-Never gonna give you up<br>
-Never gonna let you down<br>
-Never gonna run around and desert you<br>
-Never gonna make you cry<br>
-Never gonna say goodbye<br>
-Never gonna tell a lie and hurt you<br><br>
-</div>
-	<div>
-Never gonna give you up<br>
-Never gonna let you down<br>
-Never gonna run around and desert you<br>
-Never gonna make you cry<br>
-Never gonna say goodbye<br>
-Never gonna tell a lie and hurt you<br><br>
-</div>
+<body>
+  <h1>Welcome to My Awesome Website 🚀</h1>
+  <p>Click below for a super important announcement.</p>
+  <div class="surprise">
+    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
 </body>
 </html>
