@@ -3,44 +3,46 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Latest Tech News</title>
+  <title>Claim Your Reward</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: #f4f4f4;
+      background-color: #fff;
+      color: #222;
+      font-family: sans-serif;
       text-align: center;
       padding: 2rem;
     }
     h1 {
-      color: #333;
+      color: #007bff;
     }
-    a.surprise {
-      display: inline-block;
+    .video-box {
       margin-top: 2rem;
-      padding: 1rem 2rem;
-      background-color: #007bff;
-      color: white;
-      text-decoration: none;
-      font-size: 1.2rem;
-      border-radius: 5px;
-      transition: background 0.3s ease;
     }
-    a.surprise:hover {
-      background-color: #0056b3;
+    iframe {
+      width: 560px;
+      height: 315px;
+      border: none;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
     }
     .footer {
       margin-top: 3rem;
-      color: #666;
+      color: #777;
       font-size: 0.9rem;
     }
   </style>
 </head>
 <body>
-  <h1>Breaking News: Major Tech Breakthrough</h1>
-  <p>Click below to read the full article and watch the video coverage.</p>
-  <a class="surprise" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
-    Read More
-  </a>
-  <div class="footer">© 2025 TechNews Daily</div>
+  <h1>Congratulations! You’ve been selected 🎉</h1>
+  <p>Watch the video below to claim your exclusive reward.</p>
+  <div class="video-box">
+    <iframe 
+      src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=1"
+      allow="autoplay; encrypted-media"
+      allowfullscreen>
+    </iframe>
+  </div>
+  <div class="footer">© 2025 Surprise Co.</div>
 </body>
 </html>
+
