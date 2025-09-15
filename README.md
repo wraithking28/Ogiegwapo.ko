@@ -1,48 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Claim Your Reward</title>
-  <style>
-    body {
-      background-color: #fff;
-      color: #222;
-      font-family: sans-serif;
-      text-align: center;
-      padding: 2rem;
-    }
-    h1 {
-      color: #007bff;
-    }
-    .video-box {
-      margin-top: 2rem;
-    }
-    iframe {
-      width: 560px;
-      height: 315px;
-      border: none;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.2);
-    }
-    .footer {
-      margin-top: 3rem;
-      color: #777;
-      font-size: 0.9rem;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <title>Always Be My Baby - David Cook</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Congratulations! You’ve been selected 🎉</h1>
-  <p>Watch the video below to claim your exclusive reward.</p>
-  <div class="video-box">
-    <iframe 
-      src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=1"
-      allow="autoplay; encrypted-media"
-      allowfullscreen>
-    </iframe>
+  <div class="container">
+    <h1>Always Be My Baby</h1>
+    <div class="image-wrapper">
+      <img src="your-image.jpeg" alt="Collage of two friends" />
+    </div>
+    <div class="video-wrapper">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/G3nWFr35e7I" 
+        title="Always Be My Baby - David Cook (Lyrics)" frameborder="0" allowfullscreen>
+      </iframe>
+    </div>
+    <p class="credit">Song by David Cook | Image by John</p>
   </div>
-  <div class="footer">© 2025 Surprise Co.</div>
 </body>
 </html>
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #fceabb, #f8b500);
+  color: #333;
+  text-align: center;
+}
+
+.container {
+  padding: 40px 20px;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #5a2a83;
+}
+
+.image-wrapper img {
+  max-width: 80%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+  margin-bottom: 30px;
+}
+
+.video-wrapper iframe {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.credit {
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #555;
+}
 
