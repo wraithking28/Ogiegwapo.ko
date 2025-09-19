@@ -1,4 +1,4 @@
- ![d75c5583-a56f-48fe-9e41-d8a2c9fa2ea1](https://github.com/user-attachments/assets/6b8e287a-7d35-40a9-b43f-56a80da6b46c)
+![bc669b91-d1e3-41c6-85c1-953d06aca830](https://github.com/user-attachments/assets/ea3d6379-11a9-4df9-beae-6b5ef006e363)
 Trusted computer technician
 Computer problems contact me
 Feel free to contact me directly
